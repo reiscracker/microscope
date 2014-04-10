@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+}
+
+#bar{
+    clear: none;
+    display: inline-block;
+    float: left;
+    border-right: 1px solid black;
+}
+
+#uebersicht {
+	display: inline-block;
+	float:left;
+	width:400px; 
+	border-bottom: 1px solid black;
+}
+#uebersicht #field {
+	border: 2px solid black; 
+	position: absolute;
+}
+
+#navigation {
+	float: left; 
+	clear: left; 
+	width: 400px; 
+	height: auto;
+}
+
+#zoom {
+	float: left;
+}
+
+#arrows {
+	float: left;
+	width: 335px;
+	margin: 10 0 0 20;
+}
+
+
+.button{
+
+}
+
+.buttonimage {
+	width: 32px;
+	height: 32px;
+}
+
+#up, #down{
+	display: block;
+	margin: auto;
+}
+
+#right{
+	margin-left: 60px;
+}
+
+#left{
+	margin-left: 80px;
+}
+
+#main {
+	float: left;
+	margin: 0;
+}
